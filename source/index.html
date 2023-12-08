@@ -11,18 +11,18 @@
 
 <body class="page__body">
   <header class="main-header">
-    <div class="header-logo__wrapper">
-      <a class="header__logo" href="index.html">
+    <div class="main-header__wrapper">
+      <a class="main-header__logo" href="index.html">
         <img src="#" width="33" height="38" alt="Логотип Кэт-энерджи">
       </a>
-      <a class="header__logo-text" href="index.html">
+      <a class="main-header__logo-text" href="index.html">
         <img src="#" width="101" height="18" alt="Текстовый логотип Кэт-энерджи">
       </a>
-    </div>
-    <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">
+      <button class="main-header__toggle" type="button">
         <span class="visually-hidden">Открыть меню</span>
       </button>
+    </div>
+    <nav class="main-nav">
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
           <li class="site-list__item site-list__item--current">
@@ -97,7 +97,7 @@
         <p class="example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy
           Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по
           16 часов в день. </p>
-        <dl class="stats__list">
+        <dl class="stats">
           <div class="stats__item">
             <dt class="stats__number">5 кг</dt>
             <dd class="stats__description">снижение веса</dd>
@@ -110,8 +110,10 @@
         <p class="example__footer">Затраты на питание:15000 руб.</p>
         <div class="example__slider example-slider">
           <div class="example-slider__images">
-            <img class="example-slider__image example-slider__image--before" src="#" width="" height="" alt="">
-            <img class="example-slider__image example-slider__image--after" src="#" width="" height="" alt="">
+            <img class="example-slider__image example-slider__image--before" src="#" width="280" height="256"
+              alt="Толстый кот">
+            <img class="example-slider__image example-slider__image--after" src="#" width="280" height="256"
+              alt="Худой кот">
           </div>
           <button class="example-slider__button">
             <span class="visually-hidden">Сравнить котов</span>
@@ -130,33 +132,33 @@
     </section>
   </main>
   <footer class="main-footer">
-    <div class="footer__wrapper">
-      <div class="footer__wrapper-logo">
-        <a class="header__logo-text header__logo-text--footer">
+    <div class="main-footer__wrapper">
+      <div class="main-footer__wrapper-logo">
+        <a class="main-footer__logo-footer">
           <img src="#" width="128" height="24" alt="Текстовый логотип Кэт-энерджи">
         </a>
       </div>
-      <div class="footer__wrapper-social">
-        <ul class="footer__social-list">
-          <li class="social__item">
-            <a class="social__link social__link--vkontakte" href="#">
+      <div class="main-footer__wrapper-social">
+        <ul class="main-footer__social-list">
+          <li class="main-footer__social-item">
+            <a class="main-footer__social-link main-footer__social-link--vkontakte" href="#">
               <span class="visually-hidden">Вконтакте</span>
             </a>
           </li>
-          <li class="social__item">
-            <a class="social__link social__link--youtube" href="#">
+          <li class="main-footer__social-item">
+            <a class="main-footer__social-link main-footer__social-link--youtube" href="#">
               <span class="visually-hidden">Ютуб</span>
             </a>
           </li>
-          <li class="social__item">
-            <a class="social__link social__link--telegram" href="#">
+          <li class="main-footer__social-item">
+            <a class="main-footer__social-link main-footer__social-link--telegram" href="#">
               <span class="visually-hidden">Телеграм</span>
             </a>
           </li>
         </ul>
       </div>
-      <div class="footer__wrapper-cooperation">
-        <a class="cooperation__link cooperation__link--logo" href="#">HTML Academy</a>
+      <div class="main-footer__wrapper-cooperation">
+        <a class="main-footer__cooperation-link main-footer__cooperation-link--logo" href="#">HTML Academy</a>
       </div>
     </div>
   </footer>

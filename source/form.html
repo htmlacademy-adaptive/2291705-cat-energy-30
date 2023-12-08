@@ -11,18 +11,18 @@
 
 <body class="page__body">
   <header class="main-header">
-    <div class="header-logo__wrapper">
-      <a class="header__logo" href="index.html">
+    <div class="main-header__wrapper">
+      <a class="main-header__logo" href="index.html">
         <img src="#" width="33" height="38" alt="Логотип Кэт-энерджи">
       </a>
-      <a class="header__logo-text" href="index.html">
+      <a class="main-header__logo-text" href="index.html">
         <img src="#" width="101" height="18" alt="Текстовый логотип Кэт-энерджи">
       </a>
-    </div>
-    <nav class="main-nav">
       <button class="main-nav__toggle" type="button">
         <span class="visually-hidden">Открыть меню</span>
       </button>
+    </div>
+    <nav class="main-nav">
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
           <li class="site-list__item site-list__item--current">
@@ -50,15 +50,15 @@
             <ul class="selection-field__list">
               <li class="selection-field__item">
                 <label class="selection-field__label selection-label" for="cat-name">ИМЯ:*</label>
-                <input class="selection-label__input" id="cat-name" name="cat-name" type="text" placeholder="Барсик">
+                <input class="selection-field__input" id="cat-name" name="cat-name" type="text" placeholder="Барсик">
               </li>
               <li class="selection-field__item">
                 <label class="selection-field__label selection-label" for="cat-weight">Вес (кг):*</label>
-                <input class="selection-label__input" id="cat-weight" name="cat-weight" type="text" placeholder="7">
+                <input class="selection-field__input" id="cat-weight" name="cat-weight" type="text" placeholder="7">
               </li>
               <li class="selection-field__item">
                 <label class="selection-field__label selection-label" for="cat-age">Возраст (лет): </label>
-                <input class="selection-label__input" id="cat-age" name="cat-age" type="text" placeholder="7">
+                <input class="selection-field__input" id="cat-age" name="cat-age" type="text" placeholder="7">
               </li>
             </ul>
           </fieldset>
@@ -66,19 +66,19 @@
             <h3 class="visually-hidden">Выбор программы</h3>
             <ul class="selection-field__list">
               <li class="selection-field__item">
-                <input class="selection-label__input radio-input radio-input--checked" id="program-slim"
+                <input class="selection-field__input radio-input radio-input--checked" id="program-slim"
                   name="type-of-program" value="weight-loss" type="radio" checked>
                 <span class="selection-field__control-mark"></span>
                 <label class="selection-field__label selection-label" for="program-slim">похудение</label>
               </li>
               <li class="selection-field__item">
-                <input class="selection-label__input radio-input" id="program-pro" name="type-of-program"
+                <input class="selection-field__input radio-input" id="program-pro" name="type-of-program"
                   value="weight-gain" type="radio">
                 <span class="selection-field__control-mark"></span>
                 <label class="selection-field__label selection-label" for="program-pro">Набор массы</label>
               </li>
               <li class="selection-field__item">
-                <input class="selection-label__input radio-input" id="program-nothing" name="type-of-program"
+                <input class="selection-field__input radio-input" id="program-nothing" name="type-of-program"
                   value="don't-know" type="radio">
                 <span class="selection-field__control-mark"></span>
                 <label class="selection-field__label selection-label" for="program-nothing">Не знаю (Нужен ваш
@@ -91,12 +91,12 @@
             <ul class="selection-field__list">
               <li class="selection-field__item">
                 <label class="selection-field__label selection-label" for="email">E-mail:*</label>
-                <input class="selection-label__input" id="email" name="email" type="text"
+                <input class="selection-field__input" id="email" name="email" type="text"
                   placeholder="kuklachev@gmail.com">
               </li>
               <li class="selection-field__item">
                 <label class="selection-field__label selection-label" for="phone">Телефон:*</label>
-                <input class="selection-label__input" id="phone" name="phone" type="text"
+                <input class="selection-field__input" id="phone" name="phone" type="text"
                   placeholder="8 (960) 900-60-90">
               </li>
             </ul>
@@ -108,7 +108,7 @@
                 <label class="selection-field__label selection-label" for="comment">
                   <span class="visually-hidden">Комментарий</span>
                 </label>
-                <input class="selection-label__input" id="comment" name="comment" type="text"
+                <input class="selection-field__input" id="comment" name="comment" type="text"
                   placeholder="Расскажите обо всех повадках кота">
               </li>
             </ul>
@@ -117,25 +117,25 @@
             <h3 class="selection-field__title title">Дополнительно</h3>
             <ul class="selection-field__list">
               <li class="selection-field__item">
-                <input class="selection-label__input checkbox checkbox--checked" id="sweetener" name="additionally"
+                <input class="selection-field__input checkbox checkbox--checked" id="sweetener" name="additionally"
                   value="sweetener" type="checkbox" checked>
                 <span class="selection-field__control-mark"></span>
                 <label class="selection-field__label selection-label" for="sweetener">сахарозаменитель</label>
               </li>
               <li class="selection-field__item">
-                <input class="selection-label__input checkbox" id="drinking-water" name="additionally"
+                <input class="selection-field__input checkbox" id="drinking-water" name="additionally"
                   value="drinking-water" type="checkbox">
                 <span class="selection-field__control-mark"></span>
                 <label class="selection-field__label selection-label" for="drinking-water">питьевая вода</label>
               </li>
               <li class="selection-field__item">
-                <input class="selection-label__input checkbox" id="milk" name="additionally" value="milk"
+                <input class="selection-field__input checkbox" id="milk" name="additionally" value="milk"
                   type="checkbox">
                 <span class="selection-field__control-mark"></span>
                 <label class="selection-field__label selection-label" for="milk">молоко</label>
               </li>
               <li class="selection-field__item">
-                <input class="selection-label__input checkbox" id="vitamins" name="additionally" value="vitamins"
+                <input class="selection-field__input checkbox" id="vitamins" name="additionally" value="vitamins"
                   type="checkbox">
                 <span class="selection-field__control-mark"></span>
                 <label class="selection-field__label selection-label" for="vitamins">витамины</label>
@@ -158,33 +158,33 @@
     </section>
   </main>
   <footer class="main-footer">
-    <div class="footer__wrapper">
-      <div class="footer__wrapper-logo">
-        <a class="header__logo-text header__logo-text--footer">
+    <div class="main-footer__wrapper">
+      <div class="main-footer__wrapper-logo">
+        <a class="main-footer__logo-footer">
           <img src="#" width="128" height="24" alt="Текстовый логотип Кэт-энерджи">
         </a>
       </div>
-      <div class="footer__wrapper-social">
-        <ul class="footer__social-list">
-          <li class="social__item">
-            <a class="social__link social__link--vkontakte" href="#">
+      <div class="main-footer__wrapper-social">
+        <ul class="main-footer__social-list">
+          <li class="main-footer__social-item">
+            <a class="main-footer__social-link main-footer__social-link--vkontakte" href="#">
               <span class="visually-hidden">Вконтакте</span>
             </a>
           </li>
-          <li class="social__item">
-            <a class="social__link social__link--youtube" href="#">
+          <li class="main-footer__social-item">
+            <a class="main-footer__social-link main-footer__social-link--youtube" href="#">
               <span class="visually-hidden">Ютуб</span>
             </a>
           </li>
-          <li class="social__item">
-            <a class="social__link social__link--telegram" href="#">
+          <li class="main-footer__social-item">
+            <a class="main-footer__social-link main-footer__social-link--telegram" href="#">
               <span class="visually-hidden">Телеграм</span>
             </a>
           </li>
         </ul>
       </div>
-      <div class="footer__wrapper-cooperation">
-        <a class="cooperation__link cooperation__link--logo" href="#">HTML Academy</a>
+      <div class="main-footer__wrapper-cooperation">
+        <a class="main-footer__cooperation-link main-footer__cooperation-link--logo" href="#">HTML Academy</a>
       </div>
     </div>
   </footer>
